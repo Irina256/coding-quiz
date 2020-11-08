@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+#scores {
+    
+    margin: 40px auto 0 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    
+}
+.timer {
+  margin: auto 0 auto 800px;
+  
+  display: flex;
+  float: right;
+
+
+   
+
+}
+
+main {
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 300px;
+    width: 50%;
+    display: block;
+}
+
+main h1 {
+
+    color: grey;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    padding: 10px 10px;
+    background: palevioletred;
+    font-size: 2rem;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-left: 480px;
+    width: 20%;
+}
+
