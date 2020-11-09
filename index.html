@@ -10,29 +10,23 @@
 
 </head>
 <body>
-    
-        <!-- Link to the scores -->
-         <div id="scores">
-            <a href="#">View High Scores</a>    
-             <!-- Timer --> 
-            <h2 id="countdown" class="timer"></h2>
-                <p id="main"></p>  
-         </div>
-         
-         <main>
-            
-            
+    <div class="container">
+        <div id="home" class="flex-column flex-center">
 <!--  Quiz discription -->
-    <h1 class = "page-title">Coding Quiz Challenge</h1>
-        <p> Try to answer the following code-related questions within the time limit.</br>
+    <h1> Quiz Challenge</h1>
+
+ <p id = "choices"> Try to answer the following code-related questions within the time limit.</br>
         Keep in mind that incorrect answers will penalize your score/time </br>
          by ten seconds!</p>
-        </main>
-        
-        <!-- Button to start the quiz -->
-        <div class = "button-start">
-            <button class="btn" id="start-quiz" >Start Quiz</button>
-        </div>
-        <script src="./assets/javascript/script.js"></script>
+         
+
+<!-- Button to start the quiz -->
+         <a href="quiz.html" class= "btn">Start Quiz</a>
+         <a href="highScores.html" class= "btn" id="highScore-btn">View High Scores</a>
+
+   
+    </div>
+</div>  
+        <script src="script.js"></script>
 </body>
 </html>
